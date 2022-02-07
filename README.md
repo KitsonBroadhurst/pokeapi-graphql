@@ -1,12 +1,12 @@
-# Odyssey Lift-off I: Basics
+# Pokedex
 
-Welcome to the companion app of Odyssey Lift-off I! You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform.
+Following on from the Odyssey GraphQL + Apollo tutorial, building a Pokedex using the PokeAPI and adding a GraphQL layer over the top.
 
-You can [preview the completed demo app here](https://lift-off-client-demo.netlify.app/).
+You can [find the course lessons and instructions on Odyssey](https://odyssey.apollographql.com/lift-off-part1), Apollo's learning platform.
+
+You can [find the PokeAPI docs here.](https://pokeapi.co/docs/v2).
 
 ## How to use this repo
-
-The course will walk you step by step on how to implement the features you see in the demo app. This codebase is the starting point of your journey!
 
 There are 2 main folders:
 
@@ -28,7 +28,3 @@ In another Terminal window,
 1. Run `npm start`.
 
 This will open up `localhost:3000` in your web browser.
-
-## Getting Help
-
-For any issues or problems concerning the course content, please refer to the [Odyssey topic in our community forums](https://community.apollographql.com/tags/c/help/6/odyssey).

@@ -21,6 +21,8 @@ export const colors = {
   text: SKColors.black.base,
   textSecondary: SKColors.grey.dark,
   ...SKColors,
+  pokeRed: '#ef5350',
+  pokePink: '#fef4f4'
 };
 
 const GlobalStyles = () => (

@@ -2,7 +2,7 @@ import React from 'react';
 import { colors, widths } from '../styles';
 import styled from '@emotion/styled';
 import { Link } from '@reach/router';
-import logo from '../assets/space_cat_logo.png';
+import logo from '../assets/pokemon.png';
 
 /**
  * Header renders the top navigation
@@ -18,10 +18,6 @@ const Header = ({ children }) => {
               <LogoContainer>
                 <Logo src={logo} />
               </LogoContainer>
-              <Title>
-                <h3>Catstronaut</h3>
-                <div>Kitty space academy</div>
-              </Title>
             </HomeButton>
           </HomeLink>
         </HomeButtonContainer>
@@ -43,7 +39,7 @@ const HeaderBar = styled.div({
   boxShadow: '0px 1px 5px 0px rgba(0,0,0,0.15)',
   padding: '5px 30px',
   minHeight: 80,
-  backgroundColor: 'white',
+  backgroundColor: colors.pokeRed,
 });
 
 const Container = styled.div({
@@ -73,20 +69,20 @@ const LogoContainer = styled.div({ display: 'flex', alignSelf: 'center' });
 
 const Logo = styled.img({
   height: 60,
-  width: 60,
+  width: 145.2,
   marginRight: 8,
 });
 
-const Title = styled.div({
-  display: 'flex',
-  flexDirection: 'column',
-  h3: {
-    lineHeight: '1em',
-    marginBottom: 0,
-  },
-  div: {
-    fontSize: '0.9em',
-    lineHeight: '0.8em',
-    paddingLeft: 2,
-  },
-});
+// const Title = styled.div({
+//   display: 'flex',
+//   flexDirection: 'column',
+//   h3: {
+//     lineHeight: '1em',
+//     marginBottom: 0,
+//   },
+//   div: {
+//     fontSize: '0.9em',
+//     lineHeight: '0.8em',
+//     paddingLeft: 2,
+//   },
+// });
